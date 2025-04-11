@@ -1,0 +1,424 @@
+nav{
+    border: solid black;
+    background-color: rgb(0, 0, 0);
+}
+.listenav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+li{
+    list-style: none;
+  
+}
+.linknav{
+   
+text-decoration: none;
+font-size: 20px;
+color: rgb(255, 255, 255);
+padding-bottom: 20%;
+
+}
+.linknav:hover
+{
+    color: rgb(253, 127, 1);
+    border: solid  rgb(253, 127, 1) ;
+  
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.headerindex{
+    background-image: url(pictures/bat.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:20px;
+} 
+
+
+/*index     */
+.boutoninscription{
+    font-size: 20px;
+    
+  margin-left: 40%;
+  padding: 20px; 
+  margin-top: 10%;
+  justify-content: space-around;
+}
+.inscription
+{
+border: solid  rgb(253, 127, 1) ;
+padding: 20px; 
+padding-left: 10%;
+padding-right: 10%;
+background-color:   rgb(253, 127, 1) ;
+text-decoration: none;
+color: white;
+
+  
+}
+.contact
+{
+   margin-left: 10%; 
+   border: solid rgb(255, 255, 255);
+   padding: 20px; 
+   padding-left: 10%;
+padding-right: 10%;
+text-decoration: none;
+color: white;
+background-color: rgb(196, 200, 204);
+}
+.inscription:hover
+{
+    border: solid rgb(12, 12, 12);
+}
+.contact:hover
+{
+border: solid rgb(12, 12, 12);
+
+}
+
+.blocindex
+{
+display: flex;
+}
+
+.sousbloc1
+{
+width:50% ;
+
+
+}
+.sousbloc11
+{
+
+box-shadow: 3px 3px 3px 3px black ;
+height: 50%;
+font-size: 25px;
+text-align: center;
+width: 98%;
+
+}
+.sousbloc12
+{
+    
+    box-shadow: 3px 3px 3px 3px black ;
+    height: 50%;
+    font-size: 25px;
+    text-align: center;
+    width: 98%;
+   
+}
+
+.sousbloc2
+{
+width: 50%;
+}
+.qq
+{
+width: 90%;
+
+}
+.qq:hover
+{
+width: 100%;
+}
+
+
+
+
+/*section    */
+.headersection{
+    background-color: rgb(225, 228, 231) ;
+    padding-bottom:20px;
+} 
+.nomsection
+{
+
+display: flex;
+width: 90%;
+margin-left: 10%;
+margin-right: 10%;
+}
+.headmaternelle
+{
+border: solid 1px black;
+width: 30%;
+text-align: center;
+margin-right: 10px;
+padding-top: 2%;
+box-shadow: 3px 3px 3px black;
+border-bottom: none;
+border-right: none;
+padding-bottom: 4%;
+}
+.headprimaire
+{
+border: solid 1px black;
+box-shadow: 3px 3px 3px black;
+width: 30%;
+text-align: center;
+margin-right: 10px;
+padding-top: 2%;
+border-bottom: none;
+border-right: none;
+}
+
+.headsecondaire
+{
+border: solid 1px black;
+box-shadow: 3px 3px 3px black;
+width: 30%;
+text-align: center;
+margin-right: 10px;
+border-bottom: none;
+border-right: none;
+}
+.boutoninscri
+{
+    border: solid black;
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+    border-radius: 20px;
+    
+}
+.boutoninscri:hover
+{
+   background-color: rgb(190, 191, 192);
+    box-shadow: 2px 2px 2px  rgb(255, 140, 0);
+   
+    
+}
+.boutonsavoirplus
+{
+    border: solid black;
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+    border-radius: 20px;
+    border-top: none;
+    border-right: none;
+    background-color: rgb(225, 228, 231);
+    box-shadow: 2px 2px 2px  rgb(12, 12, 12);
+   
+}
+.boutonsavoirplus:hover
+{
+   background-color: rgb(199, 203, 206);
+    box-shadow: 2px 2px 2px  rgb(234, 232, 232);
+}
+.imagessection
+{
+width: 95%;
+margin-left: 5%;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.sectionsensemble
+{
+
+font-size: 20px;
+}
+#maternelle
+{
+box-shadow: 2px 2px 2px black;
+display: flex;
+width:90%;
+background-color: rgb(245, 241, 238);
+margin-left: 5%;
+}
+#primaire
+{
+box-shadow: 2px 2px 2px black;
+display: flex;
+width:90%;
+background-color: rgb(245, 241, 238);
+margin-left: 5%;
+}
+#secondaire
+{
+box-shadow: 2px 2px 2px black;
+display: flex;
+width:90%;
+background-color: rgb(245, 241, 238);
+margin-left: 5%;
+}
+#texte
+{
+width: 50%;
+margin-left: 10%;
+text-align: center;
+}
+#photo
+{
+    width: 50%;
+}
+
+
+
+
+
+/* inscription style*/
+.headerinscription{
+    background-color: rgb(225, 228, 231) ;
+    padding-bottom:20px;
+} 
+
+.mainform{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.formulaire{
+    background-color: #ffffff;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 5px 5px;
+
+}
+.pad{
+    padding-right: 200px;
+    background-color: rgb(209, 216, 222);
+    border: none;
+    padding-bottom: 10px;
+   
+}
+.birth{
+    padding-right: 252px;
+    background-color: rgb(209, 216, 222);
+    border: none;
+    padding-bottom: 10px;
+}
+.niveau{
+    padding-right: 275px;
+    background-color: rgb(209, 216, 222);
+    border: none;
+    padding-bottom: 10px;
+}
+.provenance{
+    padding-right: 612px;
+    padding-bottom: 10px;
+    background-color: rgb(209, 216, 222);
+    border: none;
+    
+}
+.form1{
+    width: 50%;
+}
+.form2{
+    width: 50%;
+}
+.form3{
+    
+    
+}
+.form4{
+    margin-left: 300px;
+}
+.annuler{
+    padding: 20px;
+    background-color: red;
+    border: none;
+    color: azure;
+    text-align: center;
+    border-radius: 15px;
+}
+.annuler:hover{
+    background-color: rgb(59, 24, 24);
+    
+}
+.enregistrer{
+    padding: 20px;
+    background-color: rgb(10, 10, 174);
+    border: none;
+    color: azure;
+    text-align: center;
+    border-radius: 15px;
+}
+.enregistrer:hover{
+    background-color: rgb(20, 20, 65);
+}
+.titre{
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
+
+
+
+/*Frais scolaires style*/
+.headerFS{
+    background-color: rgb(225, 228, 231) ;
+    padding-bottom:20px;
+} 
+
+.avanceprime{
+    background-color: #e7e6e6;
+    margin-right: 900px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    box-shadow: 4px 4px 4px 4px;
+    
+    
+}
+.firsttitle{
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+.prime{
+    font-size: 300%;
+}
+.apayer{
+    border-bottom: solid 2px red;
+}
+.things{
+    padding-left: 30px;
+    display: block;
+    border-bottom: solid 2px #2987df;
+}
+
+.fraisscolarite{
+    background-color: #e7e6e6;
+    margin-right: 1000px;
+    margin-left: -500px;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 4px 4px;
+}
+.frais{
+    font-size: 300%;
+
+}
+.fraisscolaire{
+    display: flex;
+    
+}
+.month{
+    font-size: 200%;
+    border-bottom: solid 2px red;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    border: solid rgb(2, 2, 2);
+    background-color: rgb(1, 1, 1);
+}
