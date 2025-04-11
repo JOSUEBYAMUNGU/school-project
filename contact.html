@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>accueil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="headerindex">
+      <nav>
+        <ul class="listenav">
+          <img src="pictures/q.jpg" width="50px" height="50px" />
+          <li><a href="index.html" class="linknav">Accueil</a></li>
+          <li><a href="inscription.html" class="linknav">inscription</a></li>
+          <li><a href="sections.html" class="linknav">sections</a></li>
+          <li>
+            <a href="fraisscolaire.html" class="linknav">frais scolaire</a>
+          </li>
+          <li><a href="Apropos.html" class="linknav">A propos</a></li>
+          <li><a href="contact.html" class="linknav">Contact</a></li>
+          <li><a href="blog.html" class="linknav">Blog</a></li>
+        </ul>
+      </nav>
+      <p
+        style="
+          font-size: 100px;
+          height: 20px;
+          padding-top: 10%;
+          color: rgb(255, 255, 255);
+        "
+      >
+        Contact us
+      </p>
+    </header>
+
+    <form class="contact-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name..."
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email..."
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Subject..."
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </body>
+</html>

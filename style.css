@@ -1,444 +1,421 @@
-nav{
-    border: solid black;
-    background-color: rgb(0, 0, 0);
+nav {
+  border: solid black;
+  background-color: rgb(0, 0, 0);
 }
-.listenav{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
+.listenav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
 }
-li{
-    list-style: none;
-  
+li {
+  list-style: none;
 }
-.linknav{
-   
-text-decoration: none;
-font-size: 20px;
-color: rgb(255, 255, 255);
-padding-bottom: 20%;
+.linknav {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20%;
+}
+.linknav:hover {
+  color: rgb(253, 127, 1);
+  border: solid rgb(253, 127, 1);
 
-}
-.linknav:hover
-{
-    color: rgb(253, 127, 1);
-    border: solid  rgb(253, 127, 1) ;
-  
-    border-radius: 20px;
-    padding: 10px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-.headerindex{
-    background-image: url(pictures/bat.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom:20px;
-} 
-
+.headerindex {
+  background-image: url(pictures/bat.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
 
 /*index     */
-.boutoninscription{
-    font-size: 20px;
-    
+.boutoninscription {
+  font-size: 20px;
+
   margin-left: 40%;
-  padding: 20px; 
+  padding: 20px;
   margin-top: 10%;
   justify-content: space-around;
 }
-.inscription
-{
-border: solid  rgb(253, 127, 1) ;
-padding: 20px; 
-padding-left: 10%;
-padding-right: 10%;
-background-color:   rgb(253, 127, 1) ;
-text-decoration: none;
-color: white;
-
-  
+.inscription {
+  border: solid rgb(253, 127, 1);
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgb(253, 127, 1);
+  text-decoration: none;
+  color: white;
 }
-.contact
-{
-   margin-left: 10%; 
-   border: solid rgb(255, 255, 255);
-   padding: 20px; 
-   padding-left: 10%;
-padding-right: 10%;
-text-decoration: none;
-color: white;
-background-color: rgb(196, 200, 204);
+.contact {
+  margin-left: 10%;
+  border: solid rgb(255, 255, 255);
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(196, 200, 204);
 }
-.inscription:hover
-{
-    border: solid rgb(12, 12, 12);
+.inscription:hover {
+  border: solid rgb(12, 12, 12);
 }
-.contact:hover
-{
-border: solid rgb(12, 12, 12);
-
+.contact:hover {
+  border: solid rgb(12, 12, 12);
 }
 
-.blocindex
-{
-display: flex;
+.blocindex {
+  display: flex;
 }
 
-.sousbloc1
-{
-width:50% ;
-
-
+.sousbloc1 {
+  width: 50%;
 }
-.sousbloc11
-{
-
-box-shadow: 3px 3px 3px 3px black ;
-height: 50%;
-font-size: 25px;
-text-align: center;
-width: 98%;
-
+.sousbloc11 {
+  box-shadow: 3px 3px 3px 3px black;
+  height: 50%;
+  font-size: 25px;
+  text-align: center;
+  width: 98%;
 }
-.sousbloc12
-{
-    
-    box-shadow: 3px 3px 3px 3px black ;
-    height: 50%;
-    font-size: 25px;
-    text-align: center;
-    width: 98%;
-   
+.sousbloc12 {
+  box-shadow: 3px 3px 3px 3px black;
+  height: 50%;
+  font-size: 25px;
+  text-align: center;
+  width: 98%;
 }
 
-.sousbloc2
-{
-width: 50%;
+.sousbloc2 {
+  width: 50%;
 }
-.qq
-{
-width: 90%;
-
+.qq {
+  width: 90%;
 }
-.qq:hover
-{
-width: 100%;
+.qq:hover {
+  width: 100%;
 }
-
-
-
 
 /*section    */
-.headersection{
-    background-color: rgb(225, 228, 231) ;
-    padding-bottom:20px;
-} 
-.nomsection
-{
-
-display: flex;
-width: 90%;
-margin-left: 10%;
-margin-right: 10%;
+.headersection {
+  background-color: rgb(225, 228, 231);
+  padding-bottom: 20px;
 }
-.headmaternelle
-{
-border: solid 1px black;
-width: 30%;
-text-align: center;
-margin-right: 10px;
-padding-top: 2%;
-box-shadow: 3px 3px 3px black;
-border-bottom: none;
-border-right: none;
-padding-bottom: 4%;
+.nomsection {
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.headprimaire
-{
-border: solid 1px black;
-box-shadow: 3px 3px 3px black;
-width: 30%;
-text-align: center;
-margin-right: 10px;
-padding-top: 2%;
-border-bottom: none;
-border-right: none;
+.headmaternelle {
+  border: solid 1px black;
+  width: 30%;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 2%;
+  box-shadow: 3px 3px 3px black;
+  border-bottom: none;
+  border-right: none;
+  padding-bottom: 4%;
+}
+.headprimaire {
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black;
+  width: 30%;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 2%;
+  border-bottom: none;
+  border-right: none;
 }
 
-.headsecondaire
-{
-border: solid 1px black;
-box-shadow: 3px 3px 3px black;
-width: 30%;
-text-align: center;
-margin-right: 10px;
-border-bottom: none;
-border-right: none;
+.headsecondaire {
+  border: solid 1px black;
+  box-shadow: 3px 3px 3px black;
+  width: 30%;
+  text-align: center;
+  margin-right: 10px;
+  border-bottom: none;
+  border-right: none;
 }
-.boutoninscri
-{
-    border: solid black;
-    text-decoration: none;
-    padding: 2%;
-    color: black;
-    border-radius: 20px;
-    
+.boutoninscri {
+  border: solid black;
+  text-decoration: none;
+  padding: 2%;
+  color: black;
+  border-radius: 20px;
 }
-.boutoninscri:hover
-{
-   background-color: rgb(190, 191, 192);
-    box-shadow: 2px 2px 2px  rgb(255, 140, 0);
-   
-    
+.boutoninscri:hover {
+  background-color: rgb(190, 191, 192);
+  box-shadow: 2px 2px 2px rgb(255, 140, 0);
 }
-.boutonsavoirplus
-{
-    border: solid black;
-    text-decoration: none;
-    padding: 2%;
-    color: black;
-    border-radius: 20px;
-    border-top: none;
-    border-right: none;
-    background-color: rgb(225, 228, 231);
-    box-shadow: 2px 2px 2px  rgb(12, 12, 12);
-   
+.boutonsavoirplus {
+  border: solid black;
+  text-decoration: none;
+  padding: 2%;
+  color: black;
+  border-radius: 20px;
+  border-top: none;
+  border-right: none;
+  background-color: rgb(225, 228, 231);
+  box-shadow: 2px 2px 2px rgb(12, 12, 12);
 }
-.boutonsavoirplus:hover
-{
-   background-color: rgb(199, 203, 206);
-    box-shadow: 2px 2px 2px  rgb(234, 232, 232);
+.boutonsavoirplus:hover {
+  background-color: rgb(199, 203, 206);
+  box-shadow: 2px 2px 2px rgb(234, 232, 232);
 }
-.imagessection
-{
-width: 95%;
-margin-left: 5%;
-margin-top: 2%;
-margin-bottom: 2%;
+.imagessection {
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.sectionsensemble
-{
-
-font-size: 20px;
+.sectionsensemble {
+  font-size: 20px;
 }
-#maternelle
-{
-box-shadow: 2px 2px 2px black;
-display: flex;
-width:90%;
-background-color: rgb(245, 241, 238);
-margin-left: 5%;
+#maternelle {
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  width: 90%;
+  background-color: rgb(245, 241, 238);
+  margin-left: 5%;
 }
-#primaire
-{
-box-shadow: 2px 2px 2px black;
-display: flex;
-width:90%;
-background-color: rgb(245, 241, 238);
-margin-left: 5%;
+#primaire {
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  width: 90%;
+  background-color: rgb(245, 241, 238);
+  margin-left: 5%;
 }
-#secondaire
-{
-box-shadow: 2px 2px 2px black;
-display: flex;
-width:90%;
-background-color: rgb(245, 241, 238);
-margin-left: 5%;
+#secondaire {
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  width: 90%;
+  background-color: rgb(245, 241, 238);
+  margin-left: 5%;
 }
-#texte
-{
-width: 50%;
-margin-left: 10%;
-text-align: center;
+#texte {
+  width: 50%;
+  margin-left: 10%;
+  text-align: center;
 }
-#photo
-{
-    width: 50%;
+#photo {
+  width: 50%;
 }
-
-
-
-
 
 /* inscription style*/
-.headerinscription{
-    background-color: rgb(225, 228, 231) ;
-    padding-bottom:20px;
-} 
-
-.mainform{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.formulaire{
-    background-color: #ffffff;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding-left: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    box-shadow: 5px 5px 5px 5px;
-
-}
-.pad{
-    padding-right: 200px;
-    background-color: rgb(209, 216, 222);
-    border: none;
-    padding-bottom: 10px;
-   
-}
-.birth{
-    padding-right: 252px;
-    background-color: rgb(209, 216, 222);
-    border: none;
-    padding-bottom: 10px;
-}
-.niveau{
-    padding-right: 275px;
-    background-color: rgb(209, 216, 222);
-    border: none;
-    padding-bottom: 10px;
-}
-.provenance{
-    padding-right: 612px;
-    padding-bottom: 10px;
-    background-color: rgb(209, 216, 222);
-    border: none;
-    
-}
-.form1{
-    width: 50%;
-}
-.form2{
-    width: 50%;
-}
-.form3{
-    
-    
-}
-.form4{
-    margin-left: 300px;
-}
-.annuler{
-    padding: 20px;
-    background-color: red;
-    border: none;
-    color: azure;
-    text-align: center;
-    border-radius: 15px;
-}
-.annuler:hover{
-    background-color: rgb(59, 24, 24);
-    
-}
-.enregistrer{
-    padding: 20px;
-    background-color: rgb(10, 10, 174);
-    border: none;
-    color: azure;
-    text-align: center;
-    border-radius: 15px;
-}
-.enregistrer:hover{
-    background-color: rgb(20, 20, 65);
-}
-.titre{
-    text-align: center;
-    font-size: xx-large;
+.headerinscription {
+  background-color: rgb(225, 228, 231);
+  padding-bottom: 20px;
 }
 
-
-
-
-
+.mainform {
+  display: flex;
+  flex-wrap: wrap;
+}
+.formulaire {
+  background-color: #ffffff;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 5px 5px 5px 5px;
+}
+.pad {
+  padding-right: 200px;
+  background-color: rgb(209, 216, 222);
+  border: none;
+  padding-bottom: 10px;
+}
+.birth {
+  padding-right: 252px;
+  background-color: rgb(209, 216, 222);
+  border: none;
+  padding-bottom: 10px;
+}
+.niveau {
+  padding-right: 275px;
+  background-color: rgb(209, 216, 222);
+  border: none;
+  padding-bottom: 10px;
+}
+.provenance {
+  padding-right: 612px;
+  padding-bottom: 10px;
+  background-color: rgb(209, 216, 222);
+  border: none;
+}
+.form1 {
+  width: 50%;
+}
+.form2 {
+  width: 50%;
+}
+.form3 {
+}
+.form4 {
+  margin-left: 300px;
+}
+.annuler {
+  padding: 20px;
+  background-color: red;
+  border: none;
+  color: azure;
+  text-align: center;
+  border-radius: 15px;
+}
+.annuler:hover {
+  background-color: rgb(59, 24, 24);
+}
+.enregistrer {
+  padding: 20px;
+  background-color: rgb(10, 10, 174);
+  border: none;
+  color: azure;
+  text-align: center;
+  border-radius: 15px;
+}
+.enregistrer:hover {
+  background-color: rgb(20, 20, 65);
+}
+.titre {
+  text-align: center;
+  font-size: xx-large;
+}
 
 /*Frais scolaires style*/
-.headerFS{
-    background-color: rgb(225, 228, 231) ;
-    padding-bottom:20px;
-} 
-
-.avanceprime{
-    background-color: #e7e6e6;
-    margin-right: 1010px;
-    margin-left: 60px;
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    box-shadow: 4px 4px 4px 4px;
-    
-    
-}
-.firsttitle{
-    background-color: red;
-    color: white;
-    text-align: center;
-    
-}
-.prime{
-    font-size: 300%;
-}
-.apayer{
-    border-bottom: solid 2px red;
-}
-.things{
-    padding-left: 30px;
-    display: block;
-    border-bottom: solid 2px #2987df;
+.headerFS {
+  background-color: rgb(225, 228, 231);
+  padding-bottom: 20px;
 }
 
-.fraisscolarite{
-    background-color: #e7e6e6;
-    margin-right: 1000px;
-    margin-left: -900px;
-    padding-top: 5px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    box-shadow: 4px 4px 4px 4px;
+.avanceprime {
+  background-color: #e7e6e6;
+  margin-right: 1010px;
+  margin-left: 60px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px;
 }
-.frais{
-    font-size: 300%;
-
+.firsttitle {
+  background-color: red;
+  color: white;
+  text-align: center;
 }
-.fraisscolaire{
-    display: flex;
-    
+.prime {
+  font-size: 300%;
 }
-.month{
-    font-size: 200%;
-    border-bottom: solid 2px red;
+.apayer {
+  border-bottom: solid 2px red;
 }
-.fraistransport{
-    background-color: #e7e6e6;
-    margin-right: 1000px;
-    margin-left: -950px;
-    padding-top: 5px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    box-shadow: 4px 4px 4px 4px;
-   
-   
-}
-.fraisresto{
-    background-color: #e7e6e6;
-    margin-right: 1000px;
-    margin-left: -950px;
-    padding-top: 5px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 10px;
-    box-shadow: 4px 4px 4px 4px;
+.things {
+  padding-left: 30px;
+  display: block;
+  border-bottom: solid 2px #2987df;
 }
 
+.fraisscolarite {
+  background-color: #e7e6e6;
+  margin-right: 1000px;
+  margin-left: -900px;
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px;
+}
+.frais {
+  font-size: 300%;
+}
+.fraisscolaire {
+  display: flex;
+}
+.month {
+  font-size: 200%;
+  border-bottom: solid 2px red;
+}
+.fraistransport {
+  background-color: #e7e6e6;
+  margin-right: 1000px;
+  margin-left: -950px;
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px;
+}
+.fraisresto {
+  background-color: #e7e6e6;
+  margin-right: 1000px;
+  margin-left: -950px;
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  box-shadow: 4px 4px 4px 4px;
+}
 
+footer {
+  text-align: center;
+  border: solid rgb(2, 2, 2);
+  background-color: rgb(1, 1, 1);
+}
 
+.contact-form {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
 
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
 
-footer{
-    text-align: center;
-    border: solid rgb(2, 2, 2);
-    background-color: rgb(1, 1, 1);
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  background: #853d1e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #de521b;
 }
