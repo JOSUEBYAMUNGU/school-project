@@ -31,6 +31,10 @@ li {
   padding-bottom: 20px;
 }
 
+
+
+
+
 /*index     */
 .boutoninscription {
   font-size: 20px;
@@ -205,6 +209,10 @@ li {
   width: 50%;
 }
 
+
+
+
+
 /* inscription style*/
 .headerinscription {
   background-color: rgb(225, 228, 231);
@@ -286,6 +294,11 @@ li {
   font-size: xx-large;
 }
 
+
+
+
+
+
 /*Frais scolaires style*/
 .headerFS {
   background-color: rgb(225, 228, 231);
@@ -360,8 +373,71 @@ li {
   box-shadow: 4px 4px 4px 4px;
 }
 
+
+
+
+
+
+/*footer*/
 footer {
-  text-align: center;
-  border: solid rgb(2, 2, 2);
-  background-color: rgb(1, 1, 1);
+  box-shadow: 3px 3px 3px black;
+  border: solid 1px rgb(179, 174, 174);
+  background-color: rgb(206, 202, 202);
 }
+
+.footer-social-link
+{
+  text-align: center;
+  
+}
+.ulfooter
+{
+ display: flex;
+ margin-left: 40%;
+ justify-content: space-between;
+ margin-right: 45%;
+
+}
+i{
+  color: black;
+}
+i:hover
+{
+  color: rgb(137, 64, 64);
+}
+.linksfooter
+{
+display: flex;
+justify-content: space-between;
+margin-left: 40%;
+margin-right: 40%;
+text-decoration: solid;
+font-size: 20px;
+}
+.bloc1footer
+{
+display: flex;
+text-decoration: none;
+color: rgb(77, 76, 76);
+
+}
+.bloc1footer:hover
+{
+
+color: rgb(5, 5, 5);
+
+}
+.bloc2footer:hover
+{
+
+color: rgb(5, 5, 5);
+
+}
+.bloc2footer
+{
+display: flex;
+text-decoration: none;
+color: rgb(66, 65, 65);
+
+}
+
